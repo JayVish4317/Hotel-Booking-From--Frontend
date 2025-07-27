@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Header</h1>
+    </div>
+    <div class="topnav">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </div>
+    <form class="form1">
+        <div class="booking">
+            <h2>Hotel Booking Form.</h2>
+            <div>
+                <label for="firstname">First Name:</label>
+                  <input type="text" id="firstname" placeholder="First Name">
+                <label for="lastname"> Last Name:</label>
+                <input type="text" id="lastname" placeholder="Last Name:">
+            </div><br>
+            <div>
+                <label for="birth">Date Of Birthday:</label>
+                <input type="date" id="birth">
+            </div><br>
+            <div>
+                <label>Gender:</label>
+                <input type="radio" name="mygender">Male
+                <input type="radio" name="mygender">Female
+                <input type="radio" name="mygender">Other
+            </div><br>
+            <div>
+                <label for="address">Address:</label><br>
+                <input type="address" id="address" placeholder="Address Line 1"><br>
+                <input type="address" id="address" placeholder="Address Line 2"><br>
+                <input type="address" id="address" placeholder="City"><br>
+                <input type="address" id="address" placeholder="PIN"><br>
+            </div><br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="abc1234@email.com">
+            </div><br>
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="text" name="country" value="+91" size="1"/>
+                <input type="text" name="phone" size="10" id="phone" placeholder="123*******">
+            </div><br>
+            <div>
+                <label for="Arrival date">Arrival Date:</label>
+                <input type="date" id="Arrival date">
+                <label for="Arrival time">Time:</label>
+                <input type="time" id="Arrival time">
+            </div><br>
+            <div>
+                <label for="departure date">Departure Date:</label>
+                <input type="date id" id="departure date"> 
+                <label for="de time">Time:</label>
+                <input type="time" id="de time">
+            </div><br>
+            <div>
+                <label for="companyname">Company Name:</label>
+                <input type="text" id="companyname" placeholder="Company Name">
+            </div><br>
+            <div>
+                <label for="room">Room Types:</label>
+                <select name="myroom" id="room">
+                    <option value="">Standard Room(1 to 2 people)</option>
+                    <option value="family">Family Room(1 to 4 people)</option>
+                    <option value="private">Private Room</option>
+                    <option value="onlyfemale">Only Female Room</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="payment">Payment Method:</label>
+                <input type="radio" id="case" name="method">Cash
+                <input type="radio" id="online" name="method">Online
+                <input type="radio" id="method" name="method">Cheque
+            </div><br>
+            <div>
+                <label for="request">Do you have any special request?</label><br>
+                <textarea id="request" rows="5" cols="44"></textarea>
+            </div>
+            <div class="submit">
+                 <input type="submit" value="Submit Now">
+                 <input type="reset" value="Reset Now">
+            </div>
+        </div>
+    </form>
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+</body>
+</html>
